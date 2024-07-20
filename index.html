@@ -8,6 +8,8 @@
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
@@ -31,7 +33,7 @@
       z-index: 1;
       top: 0;
       left: 0;
-      background-color: #111;
+      background-color: #00008b;
       overflow-x: hidden;
       padding-top: 60px;
   }
@@ -40,13 +42,13 @@
       padding: 8px 8px 8px 32px;
       text-decoration: none;
       font-size: 25px;
-      color: #818181;
+      color: #ffffff;
       display: block;
       transition: 0.3s
   }
   
   .sidenav a:hover, .offcanvas a:focus{
-      color: #f1f1f1;
+      color: #000000;
   }
   
   .closebtn {
@@ -61,6 +63,27 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  .social-icons {
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 2rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #f1f1f1;
+        }
+        h2{
+          color: #00008b;
+        }
+        p{
+          color: #00008b;
+        }
+
   </style>
 
 <body class="">
@@ -95,21 +118,23 @@
       <h1>I am Jayanth Tunk</h1>
       <p>Data Analyst</p>
       <p>
-        <a class="fa-icon fa-icon-2x" href="https://www.facebook.com/jayanth.tunk" title="">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://twitter.com/jayanth179" title="">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://github.com/JayanthTunk" title="">
-          <i class="fa fa-github"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://in.linkedin.com/in/jayanth-tunk-8213651bb" title="">
-          <i class="fa fa-linkedin"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://medium.com/@itsmejay17902" title="">
-          <i class="fa fa-medium"></i>
-        </a>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/jayanth.tunk" title="Facebook">
+              <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/jayanth179" title="Twitter">
+              <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/JayanthTunk" title="GitHub">
+              <i class="fab fa-github"></i>
+          </a>
+          <a href="https://in.linkedin.com/in/jayanth-tunk-8213651bb" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://medium.com/@itsmejay17902" title="Medium">
+              <i class="fab fa-medium"></i>
+          </a>
+      </div>
       </p>
     </div>
   </header>
@@ -170,11 +195,23 @@
           <div class="card-block">
             <h2>Work</h2>
             <div class="work-experience">
-              <small class="date">July - December 2022</small>
-              <h3 class="h5 date-title">Project - <a href="https://www.hcltech.com/" title="Create professionnal website">HCL</a></h3>
+              <small class="date">April - June 2024</small>
+              <h3 class="h5 date-title">Software Development Intern - <a href="https://randomwalk.ai/" title="Create professionnal website">RandomWalk.AI</a></h3>
               
 
-              <p>I worked as an Intern at HCL for 6 months. I developed a project based on Artificial Intelligence</p>
+              <p>Developed "Kaposter," a web application serving as a memorial webpage. Implemented using Ejs, Node.js, MongoDB,
+                and Azure Cloud Storage. Integrated natural language processing (NLP) to monitor and filter inappropriate language,
+                setting the profanity threshold at 0.9 for effective content moderation.</p>
+            </div>
+            <div class="work-experience">
+              <small class="date">July - December 2022</small>
+              <h3 class="h5 date-title">Project Intern -<a href="https://www.hcltech.com/" title="Create professionnal website">HCL</a></h3>
+              
+
+              <p>Developed a real-time age and gender recognition system using Python and OpenCV—integrated deep learning
+                models for face detection and classification, achieving accurate predictions displayed in real-time. Implemented with
+                OpenCV for image processing, NumPy for numerical operations, and Tkinter for the user interface, ensuring seamless
+                integration and efficient real-time performance.</p>
             </div>
           </div>
         </div>
